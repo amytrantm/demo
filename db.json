@@ -1,9 +1,53 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "services": [
+    {
+        "id": 0,
+        "name": "Men's Haircut - $35",
+        "image": "images/men_haircut.png",
+        "featured": false,
+        "description": "All haircuts include line-up plus straight-razor."
+    },
+    
+    {
+        "id": 1,
+        "name":"Kids' Haircut - $30",
+        "image": "images/kid_haircut.png",
+        "featured": false,
+        "description": "For kids 11yrs & under. All haircuts include line-up plus straight-razor." 
+    },
+    {
+        "id": 2,
+        "name":"Premium Haircut - $45",
+        "image": "images/premium_haircut.png",
+        "featured": true,
+        "description": "Service includes: Hair wash - Haircut - Extra detailing - Styling"
+    },
+    {
+        "id": 3,
+        "name":"Kids' Haircut and Design - minimum $35",
+        "image": "/assets/images/kid_haircut_design.png",
+        "featured": false,
+        "description": "For kids 11yrs & under. All haircuts include line-up plus straight-razor.Price may vary based on design detail." 
+    },
+    {
+        "id": 4,
+        "name":"Men's Haircut and Design- minimum $40",
+        "image": "/assets/images/men_haircut_design.png",
+        "featured": false,
+        "description": " All haircuts include line-up plus straight-razor.Price may vary based on design detail." 
+    },
+    {
+        "id": 5,
+        "name":"Women's Undercut and Design- minimum $40",
+        "image": "/assets/images/women_undercut.png",
+        "featured": false,
+        "description": "Price may vary based on design detail." 
+    },
   ],
+  
+  
+  
+  
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
