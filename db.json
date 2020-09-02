@@ -25,34 +25,66 @@
     {
         "id": 3,
         "name":"Kids' Haircut and Design - minimum $35",
-        "image": "/assets/images/kid_haircut_design.png",
+        "image": "images/kid_haircut_design.png",
         "featured": false,
         "description": "For kids 11yrs & under. All haircuts include line-up plus straight-razor.Price may vary based on design detail." 
     },
     {
         "id": 4,
         "name":"Men's Haircut and Design- minimum $40",
-        "image": "/assets/images/men_haircut_design.png",
+        "image": "images/men_haircut_design.png",
         "featured": false,
         "description": " All haircuts include line-up plus straight-razor.Price may vary based on design detail." 
     },
     {
         "id": 5,
         "name":"Women's Undercut and Design- minimum $40",
-        "image": "/assets/images/women_undercut.png",
+        "image": "images/women_undercut.png",
         "featured": false,
         "description": "Price may vary based on design detail." 
     },
   ],
   
   
-  
-  
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {
+      "id": 0,
+      "serviceId": 0,
+      "rating": 5,
+      "text": "I was first recommended to Dang by some friends. Coming from someone who got his haircuts at Great Clips most of his life, I didn’t really know what to expect going into a barbershop. I can honestly say that Dang takes the time to give you a superb cut and ensure the satisfaction of his clients. He’ll give you the exact haircut you want and manages to perfect it every time. I’d recommend Dang to any and all of my friends and family!",
+      "customer": "Allan M",
+      "customerSince": "Nov 2016"
+      "date": "2019-03-05T16:30Z"
+    },
+    {
+      "id": 0,
+      "serviceId": 0,
+      "rating": 5,
+      "text": "Best barber I've had in a while. Always does quality work. I drive all the way from Lakewood to make sure I get a cut from him. I have gotten many compliments on his work.",
+      "customer": "Kweri Mena",
+      "customerSince": "Mar 2019"
+      "date": "2019-04-13T11:10Z"
+    },
+  ]
+  "promotions": [
+    {
+      "id": 0,
+      "product": "Labor Day Sale- 10% off all hair gel",
+      "image": "images/hair_gel.png",
+      "featured": true,
+      "description": "Get 10% off all hair gel. offer expires on 09/07/2020"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+ "feedback": [
+    {
+      "id": 0,
+      "name": "Test",
+      "telnum": "12345",
+      "email": "test@test.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "test",
+      "date": "2019-10-25T13:30Z"
+    }
+  ]
 }
