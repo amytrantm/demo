@@ -6,8 +6,7 @@
         "image": "images/men_haircut.png",
         "featured": false,
         "description": "All haircuts include line-up plus straight-razor."
-    },
-    
+    }, 
     {
         "id": 1,
         "name":"Kids' Haircut - $30",
@@ -42,9 +41,8 @@
         "image": "images/women_undercut.png",
         "featured": false,
         "description": "Price may vary based on design detail." 
-    },
+    }
   ],
-  
   
   "comments": [
     {
@@ -64,8 +62,9 @@
       "customer": "Kweri Mena",
       "customerSince": "Mar 2019"
       "date": "2019-04-13T11:10Z"
-    },
-  ]
+    }
+  ],
+  
   "promotions": [
     {
       "id": 0,
@@ -75,6 +74,7 @@
       "description": "Get 10% off all hair gel. offer expires on 09/07/2020"
     }
   ],
+  
  "feedback": [
     {
       "id": 0,
