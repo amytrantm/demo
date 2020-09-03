@@ -86,5 +86,19 @@
       "message": "test",
       "date": "2019-10-25T13:30Z"
     }
+  ],
+  "message":[
+    {
+      "id": 0,
+      "firstName": "Mike",
+      "lastName": "Wilson",
+      "phoneNum": "12345677890",
+      "email": "Mike@gmail.com",
+      "serviceType":"1",
+      "date":"test",
+      "agree": false,
+      "contactType": "Text Message",
+      "message": "test1",
+    }
   ]
 }
